@@ -1,0 +1,263 @@
+*{
+    color: #141416;
+    font-family: "Scada", sans-serif;
+}
+body{
+}
+.cont{
+    display: flex;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 58px;
+/*    margin-top: 15px;*/
+    flex-direction: row;
+
+}
+.logo{
+    margin-left: 200px;
+    width: 53px;
+    height: 53px;
+}
+.header .words{
+    margin-left: 200px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 100px;
+    color: #606060;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17.829px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.743px;
+    text-transform: uppercase;
+}
+.line{
+/*    margin-top: 25px;*/
+    width: 80%
+}
+.info{
+    background: linear-gradient(#006D02,  #8AD746);
+/*    background-color: #CFCFCF;*/
+/*    background-color: #8BC474;*/
+    width: 100%;
+}
+.main{
+    display: flex;
+}
+.text{
+    margin-left: 200px;
+    display:flex;
+    flex-direction: column;
+}
+.main-text{
+    width: 350px;
+    height: 185px;
+    font-family: "Scada", sans-serif;
+    font-size:60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -3px;
+    text-transform: capitalize;
+    color: white;
+}
+.main-pic{
+    margin-top: 30px;
+    border-radius: 3px;
+    height: 40%;
+    width:  40%;
+    margin-left: 300px;
+    box-shadow: 0px 0px 10px 2px #013220;
+/*    border-radius: 2%;*/
+}
+.buttons-text{
+    display: flex;
+    flex-direction: row;
+}
+.lil-text{
+    font-size:10px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Commissioner', sans-serif;
+}
+.another{
+    display: flex;
+    flex-direction: column;
+    
+}
+.explore{
+    font-weight: 400;
+    margin-left:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 179px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #8AD746;
+    color:#182911;
+    font-family: "Scada", sans-serif;
+    font-size:20px;
+    border: 2px solid #8AD746;
+    
+}
+.mapButtons{
+    margin-top: -330px;
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.about-text{
+    margin-top: 40px;
+    flex-direction: row;
+    margin-left:140px;
+}
+.about{
+    margin: 60px;
+    color: #141416;
+    font-family: "Scada", sans-serif;
+    font-size: 36.771px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45.964px;
+}
+.under-about-text{
+    height:80px;
+    margin-left: 140px;
+    font-family: "Scada", sans-serif;
+    font-size: 12.771px;
+    margin-bottom: 150px;
+    
+}
+.under-text1{
+    margin: 60px;
+}
+.under-text2{
+    margin: 90px;
+}
+.full-info{
+    width: 100%;
+    align-items: center;
+    display: flex;
+/*    background:linear-gradient(#8AD746, #182911);*/
+    flex-direction: column;
+    height: 1000px;
+/*    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)*/
+}
+
+.cards-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*     background-color:#8BC474;*/
+    border-radius: 20px;
+    width: 80%;
+    height: 300px;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Scada", sans-serif;
+    width: 30%;
+    height: 300px;
+    background: #8AD746;
+    flex-direction: column;
+    margin-left: 20px;
+    border-radius: 50px;
+    
+}
+.cards-pic{
+    width: 20%;
+}
+.cards-text{
+    font-family: "Scada", sans-serif;
+    font-weight: 600;
+    
+}
+.cards-mini-text{
+    
+    font-family: "Scada", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.preText{
+    color: #141416;
+    margin-top: 150px;
+    height: 185px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: "Scada", sans-serif;
+    font-size:60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -3px;
+    text-transform: capitalize;
+}
+ 
+.tg-pic{
+    width: 70px;
+}
+
+.mapPlace{
+    height: 1000px;
+    width:100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+.map2Place{
+    height: 1000px;
+    width:100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#mapButtonBond{
+
+}
+#mapButtonBich{
+
+}
+.mapButton{
+    margin-left: 40px;
+    border-radius: 50px;
+    font-weight: 900;
+    background: #8AD746;
+    color:#182911;
+    font-family: 'Montserrat', sans-serif;
+}
+#mapMark{
+    height: 200px;
+}
+.mapMenu{
+    height: 600px;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:#6bb828;
+    border-radius: 20px;
+}
+#AllMap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*
+    background: url(photo_5359403730212082664_y.jpg);
+    background-size: cover;
+*/
+}
+.the-cross{
+    margin-bottom: 415px;
+    height: 20px;
+}
